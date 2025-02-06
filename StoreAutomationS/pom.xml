@@ -7,20 +7,17 @@
     <artifactId>StoreAutomation</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
-        <!-- Selenium WebDriver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.8.0</version>
         </dependency>
-        <!-- JUnit para ejecutar las pruebas -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-        <!-- ExtentReports para generación de reportes -->
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
