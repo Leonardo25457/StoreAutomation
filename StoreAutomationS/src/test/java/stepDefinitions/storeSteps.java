@@ -15,17 +15,13 @@ public class StoreTest {
     private ExtentReports extent;
     private ExtentTest test;
 
-    // URL base de la tienda (en este caso, la versión para Perú)
     private final String baseUrl = "https://qalab.bensg.com/store/pe/";
 
     @Before
     public void setUp() {
-        // Configura la ubicación del ChromeDriver si no está en el PATH:
-        // System.setProperty("webdriver.chrome.driver", "ruta/al/chromedriver.exe");
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
 
-        // Configuración de ExtentReports
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("test-report.html");
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
@@ -51,7 +47,6 @@ public class StoreTest {
             test.info("Clic en botón de Login");
             WebElement usernameField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("username")));
             WebElement passwordField = driver.findElement(By.id("password"));
-            // Reemplaza "validUser" y "validPassword" por credenciales reales
             usernameField.sendKeys("validUser");
             passwordField.sendKeys("validPassword");
             driver.findElement(By.id("submitLogin")).click();
@@ -186,7 +181,6 @@ public class StoreTest {
                 test.fail("La categoría 'Autos' se encontró y se pudo hacer clic, lo cual es incorrecto.");
                 Assert.fail("La categoría inexistente 'Autos' no debería estar presente.");
             } catch (TimeoutException te) {
-                // Se espera que el elemento no esté presente
                 test.pass("La categoría 'Autos' no se encontró, como se esperaba.");
             }
         } catch(Exception e) {
@@ -197,7 +191,6 @@ public class StoreTest {
 
     @After
     public void tearDown() {
-        // Generar el reporte (se creará el archivo test-report.html en la raíz del proyecto)
         extent.flush();
         if(driver != null) {
             driver.quit();
