@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: com.nttdata.runner.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 6, Errors: 0, Skipped: 18, Time elapsed: 20.112 sec <<< FAILURE!
+navego a la categoria "CLOTHES" y subcategoria "MEN"(Validación del precio de un producto #1)  Time elapsed: 0.281 sec  <<< FAILURE!
+org.junit.ComparisonFailure: Etiqueta de Cerrar Sesión Esperada: expected:<Cerrar [Sesio]n> but was:<Cerrar [sesió]n>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.nttdata.steps.priceProductStep.verificarBtnCerrarSesion(priceProductStep.java:34)
+	at com.nttdata.stepsdefinitions.priceProductStepDef.navegoALaCategoriaYSubcategoria(priceProductStepDef.java:40)
+	at ✽.navego a la categoria "CLOTHES" y subcategoria "MEN"(file:///C:/Users/LEONARDO/Desktop/QALAB/autoWeb/src/test/resources/features/priceProduct.feature:8)
+
+Validación del precio de un producto #1  Time elapsed: 0.29 sec  <<< FAILURE!
+org.junit.ComparisonFailure: Etiqueta de Cerrar Sesión Esperada: expected:<Cerrar [Sesio]n> but was:<Cerrar [sesió]n>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.nttdata.steps.priceProductStep.verificarBtnCerrarSesion(priceProductStep.java:34)
+	at com.nttdata.stepsdefinitions.priceProductStepDef.navegoALaCategoriaYSubcategoria(priceProductStepDef.java:40)
+	at ✽.navego a la categoria "CLOTHES" y subcategoria "MEN"(file:///C:/Users/LEONARDO/Desktop/QALAB/autoWeb/src/test/resources/features/priceProduct.feature:8)
+
+navego a la categoria "CLOTHES" y subcategoria "MEN"(Validación del precio de un producto #2)  Time elapsed: 0.137 sec  <<< FAILURE!
+org.junit.ComparisonFailure: Etiqueta de Cerrar Sesión Esperada: expected:<[Cerrar Sesio]n> but was:<[Iniciar sesió]n>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.nttdata.steps.priceProductStep.verificarBtnCerrarSesion(priceProductStep.java:34)
+	at com.nttdata.stepsdefinitions.priceProductStepDef.navegoALaCategoriaYSubcategoria(priceProductStepDef.java:40)
+	at ✽.navego a la categoria "CLOTHES" y subcategoria "MEN"(file:///C:/Users/LEONARDO/Desktop/QALAB/autoWeb/src/test/resources/features/priceProduct.feature:8)
+
+Validación del precio de un producto #2  Time elapsed: 0.225 sec  <<< FAILURE!
+org.junit.ComparisonFailure: Etiqueta de Cerrar Sesión Esperada: expected:<[Cerrar Sesio]n> but was:<[Iniciar sesió]n>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.nttdata.steps.priceProductStep.verificarBtnCerrarSesion(priceProductStep.java:34)
+	at com.nttdata.stepsdefinitions.priceProductStepDef.navegoALaCategoriaYSubcategoria(priceProductStepDef.java:40)
+	at ✽.navego a la categoria "CLOTHES" y subcategoria "MEN"(file:///C:/Users/LEONARDO/Desktop/QALAB/autoWeb/src/test/resources/features/priceProduct.feature:8)
+
+navego a la categoria "ART" y subcategoria "MEN"(Validación del precio de un producto #3)  Time elapsed: 0.245 sec  <<< FAILURE!
+org.junit.ComparisonFailure: Etiqueta de Cerrar Sesión Esperada: expected:<Cerrar [Sesio]n> but was:<Cerrar [sesió]n>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.nttdata.steps.priceProductStep.verificarBtnCerrarSesion(priceProductStep.java:34)
+	at com.nttdata.stepsdefinitions.priceProductStepDef.navegoALaCategoriaYSubcategoria(priceProductStepDef.java:40)
+	at ✽.navego a la categoria "ART" y subcategoria "MEN"(file:///C:/Users/LEONARDO/Desktop/QALAB/autoWeb/src/test/resources/features/priceProduct.feature:8)
+
+Validación del precio de un producto #3  Time elapsed: 0.187 sec  <<< FAILURE!
+org.junit.ComparisonFailure: Etiqueta de Cerrar Sesión Esperada: expected:<Cerrar [Sesio]n> but was:<Cerrar [sesió]n>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.nttdata.steps.priceProductStep.verificarBtnCerrarSesion(priceProductStep.java:34)
+	at com.nttdata.stepsdefinitions.priceProductStepDef.navegoALaCategoriaYSubcategoria(priceProductStepDef.java:40)
+	at ✽.navego a la categoria "ART" y subcategoria "MEN"(file:///C:/Users/LEONARDO/Desktop/QALAB/autoWeb/src/test/resources/features/priceProduct.feature:8)
+

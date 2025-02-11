@@ -1,0 +1,5 @@
+com\nttdata\runner\RunnerTest.class
+com\nttdata\stepsdefinitions\priceProductStepDef.class
+com\nttdata\page\priceProductPage.class
+com\nttdata\steps\priceProductStep.class
+com\nttdata\core\DriverManager.class
